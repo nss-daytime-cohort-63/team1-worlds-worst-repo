@@ -8,12 +8,14 @@ section {
     background-color: rgb(206, 255, 31);
 }
 #nic{
+    background-image: url("./assets/dancing-mario.gif");
     position:absolute;
     text-align: right;
     color: blue;
     right:0;
     font-size: 20px;
     text-shadow: 10px 13px red;
+    
 }
 #sonic-header{
     font-size: 40px;
