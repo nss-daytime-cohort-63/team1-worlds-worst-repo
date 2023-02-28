@@ -5,3 +5,15 @@
     width: 100vh;
     height: 100vh;
 }
+#nic{
+    position:absolute;
+    text-align: right;
+    color: blue;
+    right:0;
+    font-size: 20px;
+    text-shadow: 10px 13px red;
+}
+#sonic-header{
+    font-size: 40px;
+    font-family: cursive;
+}
