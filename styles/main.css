@@ -5,3 +5,13 @@
     width: 100vh;
     height: 100vh;
 }
+
+#alex{
+    -webkit-box-shadow: 0px 0px 41px 0px rgba(247,0,247,1);
+    -moz-box-shadow: 0px 0px 41px 0px rgba(247,0,247,1);
+    box-shadow: 0px 0px 41px 0px rgba(247,0,247,1);
+    text-align: center;
+    background-color: orange;
+    color: white;
+    font-size: 2em;
+}
