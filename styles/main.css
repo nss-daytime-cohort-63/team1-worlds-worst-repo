@@ -1,10 +1,23 @@
+section {
+    height: 35vh;
+}
+
 #container{
     background-image: url("./assets/punkskull.gif"), url("./assets/flames.gif");
     background-size: 25%;
     background-color: rgb(206, 255, 31);
-    width: 100vh;
-    height: 100vh;
 }
+
+#alex{
+    -webkit-box-shadow: 0px 0px 41px 0px rgba(247,0,247,1);
+    -moz-box-shadow: 0px 0px 41px 0px rgba(247,0,247,1);
+    box-shadow: 0px 0px 41px 0px rgba(247,0,247,1);
+    text-align: center;
+    background-color: orange;
+    color: white;
+    font-size: 3em;
+}
+
 
 .intexp-img {
     width: 100px
