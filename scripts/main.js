@@ -2,4 +2,9 @@ import { alexFunction } from "./randomColor.js";
 
 let alexSection = document.querySelector("#alex")
 
-alexSection.innerHTML = alexFunction()
+const alexShuffle = () => {
+    alexSection.innerHTML = alexFunction()
+}
+
+alexShuffle()
+let text = setInterval(alexShuffle, 50)
