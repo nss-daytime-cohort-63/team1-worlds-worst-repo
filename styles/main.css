@@ -1,0 +1,7 @@
+#container{
+    background-image: url("./assets/punkskull.gif"), url("./assets/flames.gif");
+    background-size: 25%;
+    background-color: rgb(206, 255, 31);
+    width: 100vh;
+    height: 100vh;
+}
