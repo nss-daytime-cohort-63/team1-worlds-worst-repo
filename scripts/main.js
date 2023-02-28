@@ -7,4 +7,4 @@ const alexShuffle = () => {
 }
 
 alexShuffle()
-let text = setInterval(alexShuffle, 50)
+let text = setInterval(alexShuffle, 333)
