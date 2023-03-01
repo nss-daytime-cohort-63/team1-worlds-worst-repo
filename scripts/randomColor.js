@@ -1,8 +1,11 @@
 
+const randomColorMaker = () => {
+  return  Math.floor(Math.random() * 16777215).toString(16);
+};
+
+
 export let alexFunction = () => {
-  const randomColorMaker = () => {
-    return  Math.floor(Math.random() * 16777215).toString(16);
-  };
+
 
   const randomFontChooser = () =>{
     const fonts = ["Helvetica",
@@ -46,3 +49,9 @@ The bee, of course, flies anyway because bees don't care what humans think is im
   return htmlString
 
 };
+
+export const goldenrod = () => {
+  let color = randomColorMaker();
+  let htmlString = `<span id="${color}" style="background-color:#${color}">This site is as good a site as goldenrod a color.</span>`
+  return htmlString
+}

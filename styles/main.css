@@ -11,7 +11,7 @@ section {
     background-image: url("./assets/dancing-mario.gif");
     position:absolute;
     text-align: right;
-    font-family: cursive;
+    font-family: "Comic Sans MS";
     color: blue;
     right:0;
     font-size: 20px;
@@ -25,7 +25,7 @@ section {
 }
 #sonic-header{
     font-size: 40px;
-    font-family: cursive;
+    font-family: "Comic Sans MS";
 }
 #sonic-header:hover{
     font-size: 5px;
@@ -37,7 +37,7 @@ section {
     text-align: center;
     background-color: orange;
     color: white;
-    font-size: 3em;
+    font-size: 3.3em;
 }
 
 
@@ -76,3 +76,7 @@ section {
 /* header {
     background-color: white;
 } */
+
+footer{
+    font-family: "Comic Sans MS";
+}
