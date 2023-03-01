@@ -6,6 +6,7 @@ let html = `<div id="DivHulkHogan">
 `;
 
 const brother = new Audio("styles/assets/hulkhogan.mp3")
+brother.volume = .25;
 
 document.addEventListener("click", clickEvent =>{
     const clickTarget = clickEvent.target;
