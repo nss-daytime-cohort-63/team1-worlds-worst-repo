@@ -31,9 +31,20 @@ section {
 
 
 .intexp-img {
-    width: 100px
+    width: 100px;
 }
 
 .intexp {
     height: 100vh;
+    text-align: center;
+}
+
+.headache {
+    display: flex;
+    justify-content: space-around;
+    height: 300px;
+}
+
+.headache-img {
+    width: 25%;
 }
