@@ -30,8 +30,11 @@ section {
 }
 
 
+
+
+/* courtney's changes */
 .intexp-img {
-    width: 100px;
+    width: 25%;
 }
 
 .intexp {
@@ -43,8 +46,22 @@ section {
     display: flex;
     justify-content: space-around;
     height: 300px;
+    border: dashed rgba(247,0,247,1) 8px
 }
 
 .headache-img {
     width: 25%;
+    border: dotted rgb(0, 128, 17) 10px
 }
+
+.header-text {
+    background-color: rebeccapurple;
+    color:rgb(206, 255, 31);
+    width: 50%;
+    margin: 10px auto;
+    padding: 0 0 15px 0
+}
+
+/* header {
+    background-color: white;
+} */
